@@ -45,8 +45,8 @@
     border: none;
     border-radius: 20px;
 
-    background-color: white;
-
+    background-color: gold;
+    color: white;
     cursor: pointer;
 
     font-weight: bold;
@@ -304,12 +304,12 @@ main{
 .pro-card h3{
     text-align: center;
     justify-content: center;
-    font-size: 28px;
+    font-size: 25px;
     margin: 15px 0;
     position: absolute;
-    left: 100px;
-    bottom: 60px;
-    color: yellow;
+    left: 75px;
+    bottom: 40px;
+    color: black;
 }
 .qul-h1 h1{
     text-align: center;
@@ -359,7 +359,8 @@ main{
 
     .right img{
         width: 100%;
-        margin: 20px;
+        margin:0 ;
+        display: block;
 
     }
     .veg-container{
@@ -380,7 +381,56 @@ main{
         
         
     }
-    
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav{
+        padding: 10px 15px;
+    }
+
+    .hero{
+        flex-direction: column;
+        padding: 90px 15px 20px;
+        width: 100%;
+    }
+
+    .left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+    .right img{
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+
+    .left h1,
+    .left h2{
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .left p{
+        font-size: 14px;
+    }
+
+    .left button{
+        margin-top: 15px;
+    }
+    .pro-card h3{
+        left: 40px;
+        bottom: 45px;
+    }
+
 }
+    
+
  
 
