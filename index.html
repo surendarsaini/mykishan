@@ -1,21 +1,44 @@
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="mynav.css" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Document</title>
   </head>
   <body>
     <nav class="nav">
-      <div class="logo">MyStore</div>
+      <div class="logo">
+        <a href="index.html">MyStore</a>
+      </div>
       <ul class="menu">
-        <a href="">Home</a>
+        <a href="index.html">Home</a>
         <a href="">About</a>
         <a href="">Service</a>
         <a href="">Contact</a>
       </ul>
-      <button type="submit" class="btn" onclick="xyz()">Menu</button>
+      <div class="right-icon">
+        <a href="login.html" class="nav-iconslink">
+      <div class="nav-icons">
+
+       <i class="fa-regular fa-user"></i>
+
+       
+       </a>
+      <button type="submit" class="menu-btn" onclick="showMenu()"> ☰</button>
+      <div class="menu1" id="menu1">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">About</a></li>
+          <li><a href="signup.html">Service</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      </div>
+      </div>
     </nav>
     <main class="hero">
       <div class="left">
@@ -40,8 +63,8 @@
       <div class="product">
         <div class="card">
           <span class="discount">41% OFF</span>
-          <img src="tomao img.jpg" alt="tomato image" />
-          <h3 class="h3">Tomato</h3>
+          <img src="frut2.jpg" alt="tomato image" />
+          <h3 class="h3">Fruts</h3>
           <button>Buy Now</button>
         </div>
         <div class="card">
@@ -186,6 +209,226 @@
             <button class="btn">Add Cart</button>
          </div>
       </div>
+
+      <div class="banner">
+        <div class="banner-content">
+         <p>PURE, POWERFUL, PRODUCTIVE</p>
+
+         <h1>The Seeds You Can Trust</h1>
+
+         <button>Start Shopping</button>
+        </div>
+      </div>
+
+      <div class="saini">
+        <h2>Best Seller</h2>
+      </div>
+      <div class="best-seller">
+        <div class="best-item">
+          <span class="discount">29% OFF</span>
+          <img src="tomao img.jpg" alt="">
+          <h3>hybrid seeds</h3>
+          <div class="price">
+            <span class="New-price">Rs. 2250</span>
+            <span class="old-price">Rs.3200</span>
+          </div>
+          <p class="save">save:Rs. 950</p>
+          <button>Add To Cart</button>
+        </div>
+        <div class="best-item">
+          <span class="discount">29% OFF</span>
+          <img src="tomao img.jpg" alt="">
+          <h3>hybrid seeds</h3>
+          <div class="price">
+            <span class="New-price">Rs. 2250</span>
+            <span class="old-price">Rs.3200</span>
+          </div>
+          <p class="save">save:Rs. 950</p>
+          <button>Add To Cart</button>
+        </div>
+        <div class="best-item">
+          <span class="discount">29% OFF</span>
+          <img src="tomao img.jpg" alt="">
+          <h3>hybrid seeds</h3>
+          <div class="price">
+            <span class="New-price">Rs. 2250</span>
+            <span class="old-price">Rs.3200</span>
+          </div>
+          <p class="save">save:Rs. 950</p>
+          <button>Add To Cart</button>
+        </div>
+        <div class="best-item">
+          <span class="discount">29% OFF</span>
+          <img src="tomao img.jpg" alt="">
+          <h3>hybrid seeds</h3>
+          <div class="price">
+            <span class="New-price">Rs. 2250</span>
+            <span class="old-price">Rs.3200</span>
+          </div>
+          <p class="save">save:Rs. 950</p>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <!--testimonials-->
+      
+      <div class="test-contaner">
+        <div class="saini">
+        <h1>Testimonials</h1>
+      </div>
+      <div class="test-in">
+        <div class="test-card">
+          <div class="user-icon">
+            👤
+        </div>
+         <p>
+            Thank You So Much. Our Kids Are Excited About
+            The Giant Sunflowers.
+        </p>
+         <div class="stars">
+            ⭐⭐⭐⭐⭐
+        </div>
+          <h3>Surendar Saini</h3>
+        </div>
+        <div class="test-card">
+          <div class="user-icon">
+            👤
+        </div>
+         <p>
+            Thank You So Much. Our Kids Are Excited About
+            The Giant Sunflowers.
+        </p>
+         <div class="stars">
+            ⭐⭐⭐⭐⭐
+        </div>
+          <h3>Surendar Saini</h3>
+        </div>
+        <div class="test-card">
+          <div class="user-icon">
+            👤
+        </div>
+         <p>
+            Thank You So Much. Our Kids Are Excited About
+            The Giant Sunflowers.
+        </p>
+         <div class="stars">
+            ⭐⭐⭐⭐⭐
+        </div>
+          <h3>Surendar Saini</h3>
+        </div>
+        <div class="test-card">
+          <div class="user-icon" id="icon">
+            👤
+        </div>
+         <p>
+            Thank You So Much. Our Kids Are Excited About
+            The Giant Sunflowers.
+        </p>
+         <div class="stars">
+            ⭐⭐⭐⭐⭐
+        </div>
+          <h3>Surendar Saini</h3>
+        </div>
+        </div>
+      </div>
+      <!--Follow Us section -->
+      <div class="futures">
+        <div class="future-hadding">
+          <h1>Follow Us</h1>
+        </div>
+        <div class="fu-container">
+          <div class="feature-box">
+             <div class="icon">
+                📦
+            </div>
+            <h3>Free shipping Above  ₹2000</h3>
+          </div>
+          <div class="feature-box">
+
+            <div class="icon">
+                🌿
+            </div>
+
+            <h3>Organic Products</h3>
+
+          </div>
+          <div class="feature-box">
+
+            <div class="icon">
+                🚚
+            </div>
+
+            <h3>Fast Delivery</h3>
+
+          </div>
+          <div class="feature-box">
+
+            <div class="icon">
+                💳
+            </div>
+
+            <h3>Safe And Secure Payment</h3>
+
+          </div>
+        </div>
+
+      </div>
+  
     </section>
+    <footer class="footer">
+      <div class="footer-container">
+
+        <div class="footer-box">
+          <h1>Beejkart</h1>
+          <p>
+                Beejkart is established to connect
+                farmers to share our experience.
+            </p>
+          <div class="social-icons">
+
+                <span>📘</span>
+                <span>📸</span>
+                <span>▶</span>
+
+            </div>
+
+        </div>
+        <!--contact-->
+        <div class="footer-box">
+           <h2>Contact Information</h2>
+           <p>📞 +91 96490-14555</p>
+           <p>📧 surendarsaini@gmail.com</p>
+        </div>
+        <!--links-->
+        <div class="footer-box">
+          <h2>Useful Link</h2>
+          <ul>
+          <li>About Us</li>
+          <li>Shipping policy</li>
+          <li>Privacy policy</li>
+          <li>Blogs</li>
+          </ul>
+        </div>
+        <!--product-->
+        <div class="footer-box">
+          <h2>Categoris</h2>
+           <ul>
+
+                <li>Vegetable Seeds</li>
+                <li>Flower Seeds</li>
+                <li>Kitchen Garden</li>
+                <li>Agricultural Equipment</li>
+
+            </ul>
+        </div>
+      </div>
+      <hr>
+
+  <div class="copyright">
+
+    <p>© 2026 Surendar. All Rights Reserved</p>
+
+  </div>
+    </footer>
+    <script src="index.js"></script>
   </body>
 </html>
