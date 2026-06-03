@@ -22,4 +22,5 @@ document.getElementById("form").addEventListener("submit", function(e) {
     console.log(user);
 
     alert("Signup Successful");
+    window.location.href = "index.html";
 });
